@@ -2,6 +2,6 @@ import { combineReducers } from 'redux'
 import postsReducer from './postsReducer'
 
 export default combineReducers({
-    //add some fake data
+    //assign reducer to a key
     posts: postsReducer
 })
