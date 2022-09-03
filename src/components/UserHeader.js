@@ -9,7 +9,7 @@ class UserHeader extends React.Component {
 
     render() {
         //loop through array of users and display the one we need
-        const user = this.props.users.find(user => user.id === this.props.userId)
+        const { user } = this.props
 
         if (!user) {
             return null
@@ -20,8 +20,8 @@ class UserHeader extends React.Component {
 }
 
 //Access state from redux 
-const mapStateToProps = (state) =>{
-    return { users: state.users }
+const mapStateToProps = (state, ownProps) => {
+    return { user: state.users.find(user => user.id === ownProps.userId) }
 }
 
 
