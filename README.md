@@ -1,3 +1,25 @@
+# Blog-post-component
+
+This is an blog application that is built with React JS and Redux. It pulls blog posts from the JSON Placeholder API and renders them on the UI, while referencing a unique user for each post. With this project, I learnt how to properly design a Redux store, how to use memoization to cut down on unnecessary rendering/data pulling plus how to use Redux Thunk to write neat action creators that use async logic to fetch data.
+
+
+<h3>Technology used:</h3>
+
+- React JS
+- Redux
+- Redux Thunk
+- Lodash
+- Semantic UI & CSS
+- Vercel
+
+
+<h3>Link to site:</h3>
+
+
+<h3>Screenshare:</h3>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
