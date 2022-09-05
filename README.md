@@ -15,8 +15,10 @@ This is an blog application that is built with React JS and Redux. It pulls blog
 
 <h3>Link to site:</h3>
 
+https://blog-post-component.vercel.app/
 
 <h3>Screenshare:</h3>
+
 
 
 
