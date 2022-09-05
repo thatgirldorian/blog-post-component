@@ -1,7 +1,7 @@
 import React from 'react';
 import PostList from './PostList';
 import UserHeader from './UserHeader';
-
+import '../styles/App.css';
 
 const App = () => {
     return (

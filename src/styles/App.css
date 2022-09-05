@@ -1,0 +1,97 @@
+  @font-face {
+    font-family: 'Antonio';
+    src: local('Antonio'), url(antonio.ttf) format('truetype');
+  }
+
+  iframe {
+    height: 0px !important;
+    width: 0px !important;
+  }
+
+  body {
+    position: relative;
+  }
+
+  body:before {
+    background: url('./blog-background.jpg') no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 120%;
+    position: fixed;
+    z-index: -1;
+  }
+
+  body:after {
+    content: '';
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 120%;
+    z-index: -1;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .ui.container:before {
+    content: 'All the juicy news';
+    text-transform: uppercase;
+    color: #25316D;
+    background-color: #ffffff;
+    font-family: 'Antonio';
+    display: inline-block;
+    padding: 25px;
+    position: relative;
+    margin: 5px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    border-radius: 5px;
+  }
+
+  .ui.container .divided.list:before {
+    content: '...in one place';
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #25316D;
+    font-family: 'Antonio';
+    display: inline-block;
+    padding: 25px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    border-radius: 5px;
+  }
+
+  .ui.container {
+    padding-top: 20px;
+  }
+
+  .ui.container .ui.list .item {
+    margin-bottom: 10px;
+    background-color: #f8f7f3;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #f8f7f3;
+  }
+
+  .ui.container .ui.list .item .middle.aligned.icon.user {
+    padding: 10px;
+  }
+
+  h2 {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+
+  .description p {
+    margin-bottom: 5px;
+  }
+
+  .header {
+    color: #1e2757 !important;
+  }
